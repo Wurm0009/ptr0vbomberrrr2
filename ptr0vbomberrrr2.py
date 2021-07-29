@@ -23,7 +23,7 @@ def main():
     os.system('clear')
     print(start.banner)
     print(start.menu)
-    num_menu = input("iisus> ")
+    num_menu = input("~")
     if num_menu == "":
        main()
     if num_menu == "1":
