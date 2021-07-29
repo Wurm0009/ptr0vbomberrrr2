@@ -4,7 +4,7 @@ from termcolor import colored
 from modules import start
 
 def bomber():
-    os.system("cd bombers && python3 bomber.py")
+    os.system("cd bombers && python3 ptr0vbomberrrr2.py")
 
 def creator():
     print(start.creator)
