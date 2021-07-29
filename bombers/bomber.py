@@ -1,9 +1,9 @@
 import os, sys, time, requests, random
 
-from modules import logo
+from modules import start
 
 os.system("clear")
-print(logo.banner)
+print(start.banner)
 
 _name = ""
 _phone9 = ""
@@ -17,7 +17,7 @@ except:
 _phone = phone
 
 os.system("clear")
-print(logo.banner)
+print(start.banner)
 print("Атака началась на номер:", phone)
 for x in range(12):
     _name = _name + random.choice(list('123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'))
